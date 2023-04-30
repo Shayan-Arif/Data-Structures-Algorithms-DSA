@@ -3,9 +3,15 @@ using namespace std;
 
 int main(){
 
-for (int row = 0; row < 3; row++)
+    int rowCount,colCount;
+    cout<<"Enter the number of rows and columns: ";
+    cin>>rowCount;
+    cin>>colCount;
+
+
+for (int row = 0; row < rowCount; row++)
 {
-    for (int col = 0; col < 5; col++)
+    for (int col = 0; col < colCount; col++)    
     {
         cout<<"*";
     }
